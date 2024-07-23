@@ -18,12 +18,14 @@ function About() {
           <div className="flex justify-center lg:justify-start">
             <p className="my-2 max-w-xl py-6">
               {" "}
-              About Text Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Consequatur recusandae quam iusto corporis ducimus similique
-              rerum at id. Accusamus ad laborum aliquid blanditiis id,
-              consequatur distinctio corporis est at beatae mollitia, expedita
-              deserunt placeat dolorem tempora obcaecati exercitationem sunt eum
-              minus praesentium quo excepturi sapiente.
+              I am currently pursuing MCA from IPS Academy,Indore.I am a
+              dedicated and versatile frontend developer with a passion for
+              creating efficient and user-friendly web applications.I have
+              worked with a variety of technologies, including React, Next.js,
+              Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web
+              development began with a deep curiosity for how things work, and
+              it has evolved into a career where I continuously strive to learn
+              and adapt to new challenges.
             </p>
           </div>
         </div>

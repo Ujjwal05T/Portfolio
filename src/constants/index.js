@@ -6,7 +6,7 @@ export const PROJECTS = [
       title: "Todo List",
       image: project1,
       description:
-        "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+        "A fully functional Todo List website with features like adding , editing and deleting tasks.",
       technologies: ["HTML","CSS","React", "TailwindCSS"],
     },
     
