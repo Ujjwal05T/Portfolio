@@ -1,8 +1,36 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Portfolio project! This is a React-based application designed to showcase projects and skills. It utilizes modern web technologies and best practices to provide a seamless user experience.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Scripts](#scripts)
+- [Linting](#linting)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Interactive animations with [Framer Motion](https://www.framer.com/motion/)
+- Responsive design using [Tailwind CSS](https://tailwindcss.com/)
+- Code quality ensured by [ESLint](https://eslint.org/)
+
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A build tool that provides a fast development experience.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **Framer Motion**: A library for creating animations in React applications.
+
+## Installation
+
+To get started with this project, clone the repository and install the dependencies:
+
+```bash
+git clone <repository-url>
+cd portfolio
+npm install
