@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "../assets/Front-End-Development.jpeg";
+import { motion } from "framer-motion";
 
 function About() {
   return (
@@ -10,12 +11,20 @@ function About() {
       </h1>
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex item-center justify-center">
+          <motion.div
+          whileInView={{opacity:1,x:0}}
+          initial={{opacity:0,x:-100}}
+          transition={{duration:0.5}}
+          className="flex item-center justify-center">
             <img className="rounded-2xl" src={aboutImg} alt="About" />
-          </div>
+          </motion.div>
         </div>
         <div className="w-full lg:w-1/2">
-          <div className="flex justify-center lg:justify-start">
+          <motion.div
+          whileInView={{opacity:1,x:0}}
+          initial={{opacity:0,x:100}}
+          transition={{duration:0.5}}
+          className="flex justify-center lg:justify-start">
             <p className="my-2 max-w-xl py-6">
               {" "}
               I am currently pursuing MCA from IPS Academy,Indore.I am a
@@ -27,7 +36,7 @@ function About() {
               it has evolved into a career where I continuously strive to learn
               and adapt to new challenges.
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
