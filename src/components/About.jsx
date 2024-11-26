@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/Front-End-Development.jpeg";
+import aboutImg from "../assets/wp10167050-full-stack-wallpapers.jpg";
 import { motion } from "framer-motion";
 
 function About() {
@@ -19,7 +19,7 @@ function About() {
             <img className="rounded-2xl" src={aboutImg} alt="About" />
           </motion.div>
         </div>
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-1/2 flex items-center">
           <motion.div
           whileInView={{opacity:1,x:0}}
           initial={{opacity:0,x:100}}
@@ -28,10 +28,10 @@ function About() {
             <p className="my-2 max-w-xl py-6">
               {" "}
               I am currently pursuing MCA from IPS Academy,Indore.I am a
-              dedicated and versatile frontend developer with a passion for
+              dedicated and versatile developer with a passion for
               creating efficient and user-friendly web applications.I have
-              worked with a variety of technologies, including React, Next.js,
-              Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web
+              worked with a variety of technologies, including React, Nextjs, Spring Boot,
+              Spring Security, TailwindCSS, and PostgreSQL. My journey in web
               development began with a deep curiosity for how things work, and
               it has evolved into a career where I continuously strive to learn
               and adapt to new challenges.

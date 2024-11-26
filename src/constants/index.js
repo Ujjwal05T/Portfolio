@@ -1,14 +1,14 @@
-import project1 from "../assets/Screenshot 2024-07-23 011450.png"
-import project2 from "../assets/Screenshot 2024-07-23 013958.png"
+import project1 from "../assets/Screenshot 2024-11-26 210347.png"
+import project2 from "../assets/Screenshot 2024-11-26 215552.png"
 
 export const PROJECTS = [
     {
-      title: "Todo List",
+      title: "Campus Placement Portal",
       image: project1,
       description:
-        "A fully functional Todo List website with features like adding , editing and deleting tasks.",
-      technologies: ["HTML","CSS","React", "TailwindCSS"],
-      link:'https://todolist-hazel-eight.vercel.app/',
+        "This project aims to connect students with potential employers and provide essential information about the School of Computers, IPS Academy, enhancing the placement process for graduates.",
+      technologies: ["React", "TailwindCSS", "Spring Boot", "JWT Authentication", "PostgreSQL"],
+      link:'https://my-placement-portal.vercel.app/',
     },
     
     {

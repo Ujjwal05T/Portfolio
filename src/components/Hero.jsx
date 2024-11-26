@@ -27,17 +27,17 @@ function Hero() {
             initial="hidden"
             animate="visible"
              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">
-              Frontend Web Developer
+              Full-Stack Web Developer
             </motion.span>
             <motion.p
             variants={container(1)}
             initial="hidden"
             animate="visible"
             className="my-2 max-w-xl py-6 font-light tracking-tighter">
-              I am a passionate frontend developer with a knack for crafting
+              I am a passionate web developer with a knack for crafting
               robust and scalable web applications.I have honed my skills in front-end technologies like
-              React and Next.js, as well as back-end technologies like Node.js,
-              MySQL, PostgreSQL, and MongoDB. My goal is to leverage my
+              React and Next.js, as well as back-end technologies like Spring Boot
+              and PostgreSQL. My goal is to leverage my
               expertise to create innovative solutions that drive business
               growth and deliver exceptional user experiences.
             </motion.p>
