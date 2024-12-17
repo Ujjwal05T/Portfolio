@@ -6,12 +6,6 @@ Welcome to the Portfolio project! This is a React-based application designed to 
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Scripts](#scripts)
-- [Linting](#linting)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
